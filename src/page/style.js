@@ -117,6 +117,11 @@ export const SectionRight = styled.div`
   width: 30%;
   display: flex;
   justify-content: center;
+
+  img {
+    filter: drop-shadow(7px 3px 4px rgba(0, 0, 0, 0.8));
+  }
+
   @media screen and (max-width: 750px){
     display:none;
   }

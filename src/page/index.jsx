@@ -44,7 +44,7 @@ function Home() {
           </ul>
         </SectionLeft>
         <SectionRight>
-            <p><img src={ImgCOffe} alt="" /></p>
+            <img src={ImgCOffe} alt="" />
         </SectionRight>
       </Main>
     </>
