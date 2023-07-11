@@ -1,45 +1,47 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Header = styled.header`
- display:flex;
- justify-content:space-around;
-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-height:10vh;
-background-color:#1C1C1C;
- `
+  padding: 0 20px;
+  height: 126px; 
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: #1c1c1c;
+  
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+`;
 
 export const DivImg = styled.div`
- display:flex;
- justify-content:space-around;
- align-items:center;
-width:15vw;
-
- 
- `
+  display: flex;
+  align-items: center;
+  
+`;
 
 export const ImgLogo = styled.img`
- 
- `
+`;
+
 export const Paragrafo = styled.p`
- font-size:30px;
- font-weight:bold;
- color:	#FFD700;
-  `
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffd700;
+`;
 
 export const NavBar = styled.nav`
- display:flex;
- align-items:center;
-
-`
+  display: flex;
+  align-items: center;
+`;
 export const Lista = styled.ul`
-display:flex;
-justify-content:space-around;
-width:30vw;
-list-style:none;
-
-
-`
+  display: flex;
+  gap: 22px;
+  list-style: none;
+`;
 export const LinhaLista = styled.li`
-cursor: pointer;
-  color:#FFD700;
- `
+  font-size: 25px;
+  cursor: pointer;
+  color: #ffd700;
+`;
