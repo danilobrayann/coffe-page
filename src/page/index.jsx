@@ -9,14 +9,14 @@ import {
   LinhaLista,
   Main,
   SectionLeft,
-  SectionRight
+  SectionRight,
 } from "./style";
 import Button from "../components/Button";
 import Logo from "../assets/graos.png";
 import LogoInstagram from "../assets/insta.svg";
 import LogoLinkedIn from "../assets/in.svg";
 import LogoTwitter from "../assets/twitter.svg";
-import ImgCOffe from"../assets/copo.png"
+import ImgCOffe from "../assets/copo.png";
 function Home() {
   return (
     <>
@@ -35,16 +35,25 @@ function Home() {
       </Header>
       <Main>
         <SectionLeft>
-          <p>The best way to get your coffee without leaving the comfort of your house</p>
+          <p>
+            The best way to get your coffee without leaving the comfort of your
+            house
+          </p>
           <Button>Make your order</Button>
           <ul>
-            <li><img src={LogoInstagram} alt="Instagram" /></li>
-            <li><img src={LogoLinkedIn} alt="LinkedIn" /></li>
-            <li><img src={LogoTwitter} alt="Twitter" /></li>
+            <li>
+              <img src={LogoInstagram} alt="Instagram" />
+            </li>
+            <li>
+              <img src={LogoLinkedIn} alt="LinkedIn" />
+            </li>
+            <li>
+              <img src={LogoTwitter} alt="Twitter" />
+            </li>
           </ul>
         </SectionLeft>
         <SectionRight>
-            <img src={ImgCOffe} alt="" />
+          <img src={ImgCOffe} alt="" />
         </SectionRight>
       </Main>
     </>
