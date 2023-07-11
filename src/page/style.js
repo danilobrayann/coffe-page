@@ -23,9 +23,11 @@ export const DivImg = styled.div`
 `;
 
 export const ImgLogo = styled.img`
+  filter: drop-shadow(6px 5px 2px rgba(0, 0, 0, .9));
 `;
 
 export const Paragrafo = styled.p`
+  filter: drop-shadow(6px 5px 3px rgba(0, 0, 0, .9));
   font-size: 30px;
   font-weight: bold;
   color: #ffd700;
@@ -41,6 +43,7 @@ export const Lista = styled.ul`
   list-style: none;
 `;
 export const LinhaLista = styled.li`
+  filter: drop-shadow(6px 5px 2px rgba(0, 0, 0, .9));
   font-size: 25px;
   cursor: pointer;
   color: #ffd700;
