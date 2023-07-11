@@ -5,7 +5,7 @@ export const Header = styled.header`
   height: 15vh;
   display: flex;
   justify-content: space-around;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
   background-color: #1c1c1c;
 
   @media screen and (max-width: 500px) {
