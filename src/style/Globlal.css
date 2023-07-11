@@ -3,4 +3,11 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Chela One", cursive;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
 }

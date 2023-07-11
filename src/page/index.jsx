@@ -7,9 +7,15 @@ import {
   NavBar,
   Lista,
   LinhaLista,
+  Main,
+  SectionLeft,
+  SectionRight
 } from "./style";
 import Button from "../components/Button";
 import Logo from "../assets/graos.png";
+import LogoInstagram from "../assets/insta.svg";
+import LogoLinkedIn from "../assets/in.svg";
+import LogoTwitter from "../assets/twitter.svg";
 
 function Home() {
   return (
@@ -22,14 +28,25 @@ function Home() {
         <NavBar>
           <Lista>
             <LinhaLista>Menu</LinhaLista>
-            <LinhaLista>Contac</LinhaLista>
-            <LinhaLista>Fid Us</LinhaLista>
+            <LinhaLista>Contact</LinhaLista>
+            <LinhaLista>Find Us</LinhaLista>
           </Lista>
         </NavBar>
       </Header>
-      <div>
-        <Button>Make your order</Button>
-      </div>
+      <Main>
+        <SectionLeft>
+          <p>The best way to get your coffee without leaving the comfort of your house</p>
+          <Button>Make your order</Button>
+          <ul>
+            <li><img src={LogoInstagram} alt="Instagram" /></li>
+            <li><img src={LogoLinkedIn} alt="LinkedIn" /></li>
+            <li><img src={LogoTwitter} alt="Twitter" /></li>
+          </ul>
+        </SectionLeft>
+        <SectionRight>
+            <p>abacate</p>
+        </SectionRight>
+      </Main>
     </>
   );
 }
