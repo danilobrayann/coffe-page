@@ -16,7 +16,7 @@ import Logo from "../assets/graos.png";
 import LogoInstagram from "../assets/insta.svg";
 import LogoLinkedIn from "../assets/in.svg";
 import LogoTwitter from "../assets/twitter.svg";
-
+import ImgCOffe from"../assets/copo.png"
 function Home() {
   return (
     <>
@@ -44,7 +44,7 @@ function Home() {
           </ul>
         </SectionLeft>
         <SectionRight>
-            <p>abacate</p>
+            <p><img src={ImgCOffe} alt="" /></p>
         </SectionRight>
       </Main>
     </>

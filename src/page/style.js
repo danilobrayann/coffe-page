@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   padding: 0 20px;
-  height: 12vh;
+  height: 15vh;
   display: flex;
   justify-content: space-around;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -51,7 +51,7 @@ export const LinhaLista = styled.li`
 `;
 
 export const Main = styled.main`
-  height: 88vh;
+  height: 85vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -92,7 +92,7 @@ export const SectionLeft = styled.div`
   }
 
   @media screen and (max-width: 750px) {
-    padding: 0;
+    padding: 50px 0 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,10 +103,12 @@ export const SectionLeft = styled.div`
 
     ul {
       gap: 20px;
+     
     }
 
     li {
       margin: 0;
+      margin-top:90%;
     }
   }
 `;
@@ -115,4 +117,8 @@ export const SectionRight = styled.div`
   width: 30%;
   display: flex;
   justify-content: center;
+  @media screen and (max-width: 750px){
+    display:none;
+  }
+
 `;
